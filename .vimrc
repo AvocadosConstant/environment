@@ -1,4 +1,3 @@
-setlocal spell spelllang=en_us
 set mouse=a
 
 "   Tab Configurations
