@@ -9,8 +9,10 @@ set autoindent
 set number
 syntax on
 
-autocmd filetype cpp,c,java inoremap {<CR> {<CR>}<Esc>O<Tab>
-
+filetype plugin indent on
 au FileType javascript set tabstop=2 | set shiftwidth=2
+au FileType js set tabstop=2 | set shiftwidth=2
 au FileType css set tabstop=2 | set shiftwidth=2
+au FileType cpp set tabstop=2 | set shiftwidth=2
+au FileType hpp set tabstop=2 | set shiftwidth=2
 
