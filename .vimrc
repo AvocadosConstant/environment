@@ -9,6 +9,7 @@ set autoindent
 set number
 set so=10
 set foldmethod=syntax
+set foldlevel=99
 syntax on
 
 filetype plugin indent on
@@ -17,6 +18,7 @@ au FileType js set tabstop=2 | set shiftwidth=2
 au FileType css set tabstop=2 | set shiftwidth=2
 au FileType cpp set tabstop=2 | set shiftwidth=2
 au FileType hpp set tabstop=2 | set shiftwidth=2
+au FileType html set tabstop=2 | set shiftwidth=2
 
 set background=dark
 colorscheme quantum
